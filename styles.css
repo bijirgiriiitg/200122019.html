@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css?family=Arial');
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	outline: none;
+	font-family: Arial;
+    text-decoration: none;
+}
+
+body{
+	background: url('https://i.imgur.com/NMnbn2s.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 250vh;
+}
+.nav{
+	background: rgb(0, 225, 255);
+	overflow: hidden;
+}
+.nav{
+	float: inline-block;
+    left: 15%;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 20px 15px;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.nav .active{
+    padding: 25px;
+    left: 45%;
+}
+.nav .about{
+    padding: 25px;
+}
+.nav .detail{
+    padding: 25px;
+}
+.img{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/1/12/IIT_Guwahati_Logo.svg/330px-IIT_Guwahati_Logo.svg.png);
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    top: 0%;
+    background-size: 100%;
+    height: 55px;
+    width: 55px;
+}
+
+.nav a:hover{
+    background: rgb(43, 162, 241);
+    color: rgb(241, 233, 233);
+}
+.img1{
+    background: url(http://dsrproject.com/img/sitesbg-en.jpg) no-repeat;
+    position: absolute;
+    text-align: center;
+    left:0%;
+    top: 10%;
+    float: inline-block;
+    background-size: 100%;
+    width: 1265px;
+    height: 500px;
+}
+.wrapper{
+    position: absolute;
+    top: 5%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+    background: 0;
+    max-width: 305px;
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+}
+
+.wrapper .input {
+    width: 95%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
+}
+.searchbtn {
+    background: rgb(209, 247, 84);
+    width: 17%;
+    border-radius: 0;
+    position: relative;
+    cursor: pointer;
+    left: 10px;
+}
+
+.searchbtn .fas{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+}
+.nav1{
+    overflow: hidden;
+    background: rgb(80, 50, 248);
+}
+.nav1{
+    text-align: center;
+    left: 0%;
+    top: 558px;
+    padding: 2px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1260px;
+    background-size: 100%;
+
+}
+.nav1 .web{
+    padding: 90px;
+}
+.nav1 .design{
+    padding: 125px;
+}
+.nav1 .app{
+    padding: 80px;
+}
+.nav2 .HTML{
+    padding: 135px;
+}
+.nav2 .Typo{
+    padding: 140px;
+}
+.nav2 .App{
+    padding: 90px;
+}
+.nav2{
+    text-align: center;
+    left: 0%;
+    top: 585px;
+    padding: 1px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1263px;
+    background-size: 100%;
+}
+.nav2{
+    overflow: hidden;
+    background: rgb(245, 242, 73);
+}
+.nav3 .CSS{
+    padding: 130px;
+}
+.nav3 .Theory{
+    padding: 144px;
+}
+.nav3 .Web{
+    padding: 90px;
+}
+.nav3{
+    text-align: center;
+    left: 0%;
+    top: 610px;
+    padding: 1px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1263px;
+    background-size: 100%;
+}
+.nav3{
+    overflow: hidden;
+    background: rgb(86, 252, 57);
+}
+.nav4 .Java{
+    padding: 103px;
+}
+.nav4 .blogs{
+    padding: 170px;
+}
+.nav4 .hybrid{
+    padding: 85px;
+}
+.nav4{
+    text-align: center;
+    left: 0%;
+    top: 635px;
+    padding: 1px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1263px;
+    background-size: 100%;
+}
+.nav4{
+    overflow: hidden;
+    background: rgb(119, 253, 253);
+}
+.img2{
+    background: url(https://im.rediff.com/money/2014/sep/19sundar4.jpg) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    text-align: center;
+    left:10%;
+    top: 800px;
+    float: inline-block;
+    width: 150px;
+    height: 350px;
+}
+.img3{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg/330px-Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg)no-repeat;
+    background-size: 100%;
+    position: absolute;
+    text-align: center;
+    left:32.5%;
+    top: 800px;
+    float: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.img4{
+    background: url(https://static01.nyt.com/images/2020/11/20/multimedia/00Gates-1/00Gates-1-jumbo.jpg?quality=90&auto=webp)no-repeat;
+    background-size: 100%;
+    position: absolute;
+    text-align: center;
+    left:55%;
+    top: 800px;
+    float: inline-block;
+    width: 170px;
+    height: 300px;
+}
+.img5{
+    background: url(https://cdn.idolbirthdays.net/medias/profile/201801/jack-dorsey.jpg)no-repeat;
+    background-size: 100%;
+    position: absolute;
+    text-align: center;
+    left: 77%;
+    top: 800px;
+    float: inline-block;
+    width: 150px;
+    height: 250px;
+}
+.container{
+    width: 1259px;
+    height: 450px;
+    border: 3.3px solid black;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 700px;
+    left: 0%;
+    background-size: 100%;
+}
+.nav5{
+    text-align: center;
+    left: 0%;
+    top: 730px;
+    padding: 3px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1257px;
+    background-size: 100%;
+}
+.nav5{
+    overflow: hidden;
+    background: rgb(73, 211, 245);
+}
+.nav6{
+    text-align: center;
+    left: 0%;
+    top: 970px;
+    padding: 3px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1260px;
+    background-size: 100%;
+}
+.nav6{
+    overflow: hidden;
+}
+.nav7{
+    text-align: center;
+    left: 0%;
+    top: 1000px;
+    padding: 3px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1260px;
+    background-size: 100%;
+}
+.nav7{
+    overflow: hidden;
+}
+.nav8{
+    text-align: center;
+    left: 0%;
+    top: 1030px;
+    padding: 3px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1260px;
+    background-size: 100%;
+}
+.nav8{
+    overflow: hidden;
+}
+.nav9{
+    text-align: center;
+    left: 0%;
+    top: 1060px;
+    padding: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1260px;
+    background-size: 100%;
+}
+.nav9{
+    overflow: hidden;
+}
+.nav6 .ceo{
+    padding: 58px;
+}
+.nav6 .co{
+    padding: 60px;
+}
+.nav6 .Co{
+    padding: 140px;
+}
+.nav6 .CO{
+    padding: 80px;
+}
+.nav7 .a{
+    padding: 52px;
+}
+.nav7 .b{
+    padding: 72px;
+}
+.nav7 .c{
+    padding: 27px;
+}
+.nav7 .d{
+    padding: 65px;
+}
+.nav8 .e{
+    padding: 60px;
+}
+.nav8 .f{
+    padding: 74px;
+}
+.nav8 .g{
+    padding: 47px;
+}
+.nav8 .h{
+    padding: 35px;
+}
+.nav9 .i{
+    padding: 110px;
+}
+.nav9 .j{
+    padding: 140px;
+}
+.nav9 .k{
+    padding: 120px;
+}
+.nav9 .l{
+    padding: 120px;
+}
+.wrapper1{
+    background: rgb(45, 45, 230)141, 141, 226);
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    top: 1200px;
+    left: 50%;
+    color: blue;
+    display: inline-flex;
+
+}
+.wrapper1 .icon{
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 15px;
+}
+.wrapper1 .icon span{
+    display: block;
+    border-radius: 50%;
+    font-size: 50px;
+}
+.nav10{
+    text-align: center;
+    left: 43.5%;
+    top: 1300px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    background-size: 100%;
+}
+.nav10 .m{
+    padding: 79px;
+}
+.nav10 .n{
+    padding: 46px;
+}
+.nav10 .o{
+    padding: 51px;
+}
+.nav10{
+    overflow: auto;
+}
+.nav11{
+    text-align: center;
+    left: 44%;
+    top: 1340px;
+    padding: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    background-size: 100%;
+}
+.nav12{
+    text-align: center;
+    left: 45%;
+    top: 1360px;
+    padding: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    background-size: 100%;
+}
+.nav13{
+    text-align: center;
+    left: 45%;
+    top: 1380px;
+    padding: 3px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    background-size: 100%;
+}
+.nav11 .s{
+    padding: 90px;
+}
+.nav11 .t{
+    padding: 85px;
+}
+.nav11 .u{
+    padding: 30px;
+}
+.nav12 .v{
+    padding: 50px;
+}
+.nav12 .w{
+    padding: 60px;
+}
+.nav12 .x{
+    padding: 25px;
+}
+.nav13 .p{
+    padding: 60px;
+}
+.nav13 .q{
+    padding: 90px;
+}
+.nav13 .r{
+    padding: 15px;
+}
+.nav11{
+    overflow: auto;
+}
+.nav12{
+    overflow: auto;
+}
+.nav13{
+    overflow: auto;
+}
+.nav14{
+    text-align: center;
+    right: 60%;
+    top: 1170px;
+    padding: 60px;
+    color: rgb(247, 248, 239);
+    text-transform: uppercase;
+    position: absolute;
+    background-size: 100%;
+}
+.nav14{
+    overflow: auto;
+}
+.nav15{
+    text-align: left;
+    left: 10%;
+    top: 1280px;
+    color: rgb(247, 248, 239);
+    text-transform: uppercase;
+    position: absolute;
+    background-size: 100%;
+}
+.nav15{
+    overflow: auto;
+}
+.nav15 .Z{
+    padding: 30px;
+}
+.container1{
+    width: 180px;
+    height: 40px;
+    text-align: left;
+    left: 10%;
+    background-color: rgb(250, 42, 42);
+    position: absolute;
+    top: 1267px;
+}
+
